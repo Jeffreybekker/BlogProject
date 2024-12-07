@@ -53,15 +53,11 @@ body {
 
 <div class="row">
     <div class="leftcolumn">
-        {% for p in posts reversed %} <!--reversed is used to reverse the time. From new to old-->
         <div class="card">
-            <a style="text-decoration: none; color: black;" href="/posts/{{ p.id }}">
-                <h2>{{ p.title }}</h2>
-            </a>
-                <h5>{{ p.created_at }}</h5>
-                <p>{{ p.body|truncatewords:20 }}</p>
+                <h2>{{ single_post.title }}</h2>
+                <h5>{{ single_post.created_at }}</h5>
+                <p>{{ single_post.body }}</p>
         </div>
-        {% endfor %}
     </div>
 </div>
 </body>
