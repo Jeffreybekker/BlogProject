@@ -6,14 +6,10 @@
 ## Table of contents
 * [Blog](#blog)
   * [Description](#description)
-  * [Screenshots](#screenshots)
   * [Url Endpoints](#url-endpoints)
   * [Installation](#installation)
   * [Updating Blog](#updating-blog)
-
-## Screenshots
-![image](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
-![image](https://github.com/user-attachments/assets/ce1a417c-436e-4af4-b7bb-b3df9c334e06)
+  * [Screenshots](#screenshots)
 
 ## URL Endpoints
 <ul>
@@ -29,3 +25,8 @@
 <p>To update the blog you have to login in the build-in admin panel</p>
 <p>Then click on Posts and ADD.</p>
 <p>You can also delete a blog by clicking on a post and DELETE.</p>
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
+![image](https://github.com/user-attachments/assets/ce1a417c-436e-4af4-b7bb-b3df9c334e06)
+![image](https://github.com/user-attachments/assets/02e29bf2-a51b-4759-a0d8-92f9ec050f73)
