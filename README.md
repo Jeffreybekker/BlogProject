@@ -12,13 +12,18 @@
   * [Updating Blog](#updating-blog)
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
+![image](https://github.com/user-attachments/assets/ce1a417c-436e-4af4-b7bb-b3df9c334e06)
 
-## URL Endoints
+## URL Endpoints
 <ul>
   <li>http://127.0.0.1:8000/posts/</li>
   <li>http://127.0.0.1:8000/posts/id</li> (id = number)
   <li>http://127.0.0.1:8000/admin/</li>
 </ul>
+
+## Installation
+
 
 ## Updating Blog?
 <p>To update the blog you have to login in the build-in admin panel</p>
