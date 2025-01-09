@@ -19,7 +19,15 @@
 </ul>
 
 ## Installation
-
+1. Clone the Repository:
+```
+git clone https://github.com/Jeffreybekker/BlogProject.git
+```
+2. Create a virtual environment:
+```
+python -m venv env
+```
+3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
 ## Updating Blog?
 <p>To update the blog you have to login in the build-in admin panel</p>
