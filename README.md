@@ -6,7 +6,7 @@
 ## URL Endpoints
 <ul>
   <li>http://127.0.0.1:8000/posts/</li>
-  <li>http://127.0.0.1:8000/posts/<id></li>
+  <li>http://127.0.0.1:8000/posts/id</li> (id = number)
 </ul>
 
 ## Update the blog?
