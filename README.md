@@ -33,7 +33,7 @@ python -m venv env
 <p>Login in on the admin panel.</p>
 <p>Then click on Posts and ADD.</p>
 <p>You can also delete a blog by clicking on DELETE.</p>
-<p>Visit <a href="http://127.0.0.1:8000/posts">posts</a>to see all the updated content.</p>
+<p>Visit <a href="http://127.0.0.1:8000/posts">posts</a> to see all the updated content.</p>
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
