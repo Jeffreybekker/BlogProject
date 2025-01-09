@@ -29,10 +29,11 @@ python -m venv env
 ```
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
-## Updating Blog?
-<p>To update the blog you have to login in the build-in admin panel</p>
+## Updating Blog
+<p>Login in on the admin panel.</p>
 <p>Then click on Posts and ADD.</p>
-<p>You can also delete a blog by clicking on a post and DELETE.</p>
+<p>You can also delete a blog by clicking on DELETE.</p>
+<p>Visit <a href"http://127.0.0.1:8000/posts/">the posts</a>to see all the updated content.</p>
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
