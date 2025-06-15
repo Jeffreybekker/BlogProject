@@ -74,10 +74,11 @@
     Simply follow the steps in the terminal. This login you'll use to access the Admin panel.
 
 ## Updating Blog
-<p>Log in op het admin panel via <a href="http://127.0.0.1:8000/admin">http://127.0.0.1:8000/admin</a>.</p>
-<p>Klik op <strong>Posts</strong> en voeg een nieuwe blog toe via <strong>ADD</strong>.</p>
-<p>Om een blog te verwijderen klik je op <strong>DELETE</strong>.</p>
-<p>Ga naar <a href="http://127.0.0.1:8000/blog">/blog</a> om alle blogs te bekijken.</p>
+<p>Log in to the admin panel via <a href="http://127.0.0.1:8000/admin">http://127.0.0.1:8000/admin</a>.</p>
+<p>Click on <strong>Posts</strong> and add a new blog post via <strong>ADD</strong>.</p>
+<p>To delete a blog post, click on <strong>DELETE</strong>.</p>
+<p>Go to <a href="http://127.0.0.1:8000/blog">/blog</a> to view all blog posts.</p>
+
 
 ## Screenshots
 ![Homepage Screenshot](https://github.com/user-attachments/assets/f0ff613b-b29e-44c3-a62d-b8db8dfcd285)
