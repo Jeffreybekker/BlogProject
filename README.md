@@ -46,7 +46,6 @@
     SECRET_KEY='your_secret_key'
     DEBUG=True
     ALLOWED_HOSTS=127.0.0.1,localhost
-    WEATHER_API_KEY='your_api_key'
     ```
 
 5. Generate a Django `SECRET_KEY` (optional):
