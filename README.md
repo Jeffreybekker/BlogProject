@@ -53,18 +53,18 @@
     ```bash
     python
     ```
-    En voer het volgende in:
+    And paste the following:
     ```python
     from django.core.management.utils import get_random_secret_key
     print(get_random_secret_key())
     ```
-    Kopieer de gegenereerde sleutel en gebruik die bij `SECRET_KEY` in je `.env`-bestand.
+    Copy the generated key and use it at SECRET_KEY in your .env-file.
 
 6. Run the development server:
     ```bash
     python manage.py runserver
     ```
-    Bezoek vervolgens: [http://127.0.0.1:8000/blog](http://127.0.0.1:8000/blog)
+    Visit: [http://127.0.0.1:8000/blog](http://127.0.0.1:8000/blog)
 
 7. Create superuser to be able to login in the Admin panel:
     ```
