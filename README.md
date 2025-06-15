@@ -48,7 +48,7 @@
     ALLOWED_HOSTS=127.0.0.1,localhost
     ```
 
-5. Generate a Django `SECRET_KEY`:<hr>
+5. Generate a Django `SECRET_KEY`:<br>
     Start the Python shell:
     ```bash
     python
