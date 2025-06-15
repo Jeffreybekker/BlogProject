@@ -33,7 +33,7 @@ Install dependencies from Pipfile and Pipfile.lock:
 ```
 pipenv install
 ```
-This also creates a virtual environment.
+This also creates a virtual environment.<br>
 3. Activate the virtual environment:
 ```
 pipenv shell
@@ -54,7 +54,7 @@ And then run:
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 ```
-Copy the generated secret key and paste it at SECRET_KEY from your .env-file.
+Copy the generated secret key and paste it at SECRET_KEY from your .env-file.<br>
 6. Run the server:
 ```
 python manage.py runserver
