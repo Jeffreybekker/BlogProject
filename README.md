@@ -22,13 +22,43 @@
 1. Clone the Repository:
 ```
 git clone https://github.com/Jeffreybekker/BlogProject.git
+cd BlogProject
 ```
-2. Create a virtual environment:
+2. Create a virtual environment and install dependencies:
+If you do not have pipenv installed, then run first:
 ```
-python -m venv env
+pip install pipenv
 ```
-3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
-
+Install dependencies from Pipfile and Pipfile.lock:
+```
+pipenv install
+```
+This also creates a virtual environment.
+3. Activate the virtual environment:
+```
+pipenv shell
+```
+4. Create .env-file in the root of the project with the following:
+```
+SECRET_KEY='your_secret_key'
+DEBUG=True
+ALLOWED_HOSTS=127.0.0.1,localhost
+```
+5. Generate Django SECRET_KEY:
+Start de python shell:
+```
+python
+```
+And then run:
+```
+from django.core.management.utils import get_random_secret_key
+print(get_random_secret_key())
+```
+Copy the generated secret key and paste it at SECRET_KEY from your .env-file.
+6. Run the server:
+```
+python manage.py runserver
+```
 ## Updating Blog
 <p>Login in on the admin panel.</p>
 <p>Then click on Posts and ADD.</p>
