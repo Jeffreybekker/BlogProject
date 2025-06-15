@@ -67,6 +67,12 @@
     ```
     Bezoek vervolgens: [http://127.0.0.1:8000/blog](http://127.0.0.1:8000/blog)
 
+7. Create superuser to be able to login in the Admin panel:
+    ```
+    python manage.py createsuperuser
+    ```
+    Simply follow the steps in the terminal. This login you'll use to access the Admin panel.
+
 ## Updating Blog
 <p>Log in op het admin panel via <a href="http://127.0.0.1:8000/admin">http://127.0.0.1:8000/admin</a>.</p>
 <p>Klik op <strong>Posts</strong> en voeg een nieuwe blog toe via <strong>ADD</strong>.</p>
